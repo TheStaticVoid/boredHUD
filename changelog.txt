@@ -1,0 +1,9 @@
+boredHUD Changelog
+
+----------------------------------------------
+				Pre-Release 10.11.2015
+----------------------------------------------
++ First commit to GitHub
++ Added custom colors for color scheme in clientscheme.res
++ Added Old Sans Black font for numbers
++ Removed minmode & [X360] values from HudLayout.res and HudPlayerHealth.res

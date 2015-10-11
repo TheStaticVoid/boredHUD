@@ -1,0 +1,23 @@
+--------------------------------------------------------------------
+Credit to anything that helped during the creation of this HUD:
+--------------------------------------------------------------------
+
+Manfred Klein -- Creator of Old Sans Black 
+http://www.dafont.com/manfred-klein.d302
+
+Doodles -- His tutorial is what even gave me the power to make this HUD
+http://doodlesstuff.com/?tutorial=tf2hud 
+
+Desmond Miles -- Steam guide let me change my TF2 menu background
+http://steamcommunity.com/sharedfiles/filedetails/?id=300985049
+
+inferno -- Huge help with bug testing and other mumbo jumbo
+http://www.steamcommunity.com/id/infernoHD/
+
+spice -- Find the vaccinator resist icon fix
+http://teamfortress.tv/user/spice
+
+Wiethoofd -- High quality items in inventory & backpack
+http://teamfortress.tv/thread/25428/higher-quality-item-images-in-inventory-amp-loadouts
+
+Whoever runs the default TF2 HUD github repo -- you're the best!
