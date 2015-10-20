@@ -193,9 +193,9 @@ Scheme
 		
 		/// boredHUD custom colors ///
 		"customRed"			"169 28 35 255" 			// team indicator color
-		"customYellow"			"172 122 29 255"		// low hp indicator
+		"customYellow"			"255 206 115 255"		// low hp indicator
 		"customBlue"			"40 85 172 255"			// team indicator color
-		"customGreen" 		"34 141 23 255"			// buffed hp indicator
+		"customGreen" 		"167 255 158 255"			// buffed hp indicator
 		"customGrayPanel"	"15 15 15 175"			//	background color for panels
 		"customWhite"			"255 255 255 255"		// font color
 	}
@@ -596,6 +596,145 @@ Scheme
 		
 		// non-number font
 		
+		"hit10"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"10"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit12"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"12"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit14"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"14"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit18"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"18"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit24"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"24"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit28"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"28"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit32"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"32"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit38"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"38"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit42"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"42"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit48"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"48"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit52"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"52"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit58"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"58"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit60"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"60"
+				"antialias"		"1"
+			}
+		}
+		
+		"hit72"
+		{
+			"1"
+			{
+				"name"			"Hit the Road"
+				"tall"				"72"
+				"antialias"		"1"
+			}
+		}
 		
 		
 		// fonts are used in order that they are listed
@@ -5139,6 +5278,11 @@ Scheme
 		{
 			"font" "resource/fonts/oldsansblack.ttf"
 			"name"	"OldSansBlack"
+		}
+		"9"
+		{
+			"font" "resource/fonts/hitroad.ttf"
+			"name"	"Hit the Road"
 		}
 	}
 }

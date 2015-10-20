@@ -1,6 +1,16 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 10.19.2015
+----------------------------------------------
++ Added high quality models in backpack and loadout panels
++ Added the custom health in HudPlayerHealth.res
++ Added the custom ammo in HudAmmoWeapons.res
++ Added buffed HP color, low HP color, and low ammo color to animations
+
+
+
+----------------------------------------------
 				Pre-Release 10.11.2015
 ----------------------------------------------
 + First commit to GitHub
