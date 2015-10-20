@@ -192,9 +192,9 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 		
 		/// boredHUD custom colors ///
-		"customRed"			"169 28 35 255" 			// team indicator color
+		"customRed"			"232 39 49 255" 			// team indicator color
 		"customYellow"			"255 206 115 255"		// low hp indicator
-		"customBlue"			"40 85 172 255"			// team indicator color
+		"customBlue"			"41 104 227 255"			// team indicator color
 		"customGreen" 		"167 255 158 255"			// buffed hp indicator
 		"customGrayPanel"	"15 15 15 175"			//	background color for panels
 		"customWhite"			"255 255 255 255"		// font color

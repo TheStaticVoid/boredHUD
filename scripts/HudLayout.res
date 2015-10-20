@@ -441,22 +441,22 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"MaxDeathNotices" "8"
+		"IconScale"	  "0.45"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "1"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"customBlue"
+		"TeamRed"		"customRed"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		
-		"LocalBackgroundColor"	"245 229 196 200"	
+		"BaseBackgroundColor"	"46 43 42 75"		
+		"LocalBackgroundColor"	"255 255 255 255"	
 	}
 
 	HudVehicle
