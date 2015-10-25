@@ -453,141 +453,141 @@ Scheme
 	Fonts
 	{
 		// boredhud fonts //
-		"old10"
+		"bh10"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"10"
 				"antialias"		"1"
 			}
 		}
 		
-		"old12"
+		"bh12"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"12"
 				"antialias"		"1"
 			}
 		}
 		
-		"old14"
+		"bh14"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"14"
 				"antialias"		"1"
 			}
 		}
 		
-		"old18"
+		"bh18"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"18"
 				"antialias"		"1"
 			}
 		}
 		
-		"old24"
+		"bh24"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"24"
 				"antialias"		"1"
 			}
 		}
 		
-		"old28"
+		"bh28"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"28"
 				"antialias"		"1"
 			}
 		}
 		
-		"old32"
+		"bh32"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"32"
 				"antialias"		"1"
 			}
 		}
 		
-		"old38"
+		"bh38"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"38"
 				"antialias"		"1"
 			}
 		}
 		
-		"old42"
+		"bh42"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"42"
 				"antialias"		"1"
 			}
 		}
 		
-		"old48"
+		"bh48"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"48"
 				"antialias"		"1"
 			}
 		}
 		
-		"old52"
+		"bh52"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"52"
 				"antialias"		"1"
 			}
 		}
 		
-		"old58"
+		"bh58"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"58"
 				"antialias"		"1"
 			}
 		}
 		
-		"old60"
+		"bh60"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"60"
 				"antialias"		"1"
 			}
 		}
 		
-		"old72"
+		"bh72"
 		{
 			"1"
 			{
-				"name"			"OldSansBlack"
+				"name"			"Blue Highway"
 				"tall"				"72"
 				"antialias"		"1"
 			}
@@ -596,141 +596,141 @@ Scheme
 		
 		// non-number font
 		
-		"hit10"
+		"ln10"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"10"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit12"
+		"ln12"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"12"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit14"
+		"ln14"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"14"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit18"
+		"ln18"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"18"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit24"
+		"ln24"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"24"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit28"
+		"ln28"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"28"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit32"
+		"ln32"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"32"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit38"
+		"ln38"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"38"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit42"
+		"ln42"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"42"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit48"
+		"ln48"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"48"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit52"
+		"ln52"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"52"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit58"
+		"ln58"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"58"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit60"
+		"ln60"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"60"
 				"antialias"		"1"
 			}
 		}
 		
-		"hit72"
+		"ln72"
 		{
 			"1"
 			{
-				"name"			"Hit the Road"
+				"name"			"Larke Neue"
 				"tall"				"72"
 				"antialias"		"1"
 			}
@@ -5276,13 +5276,13 @@ Scheme
 		
 		"8"
 		{
-			"font" "resource/fonts/oldsansblack.ttf"
-			"name"	"OldSansBlack"
+			"font" "resource/fonts/blue highway bd.ttf"
+			"name"	"Blue Highway"
 		}
 		"9"
 		{
-			"font" "resource/fonts/hitroad.ttf"
-			"name"	"Hit the Road"
+			"font" "resource/fonts/Larke Neue Regular.ttf"
+			"name"	"Larke Neue"
 		}
 	}
 }

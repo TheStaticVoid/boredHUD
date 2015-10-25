@@ -249,14 +249,14 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"visible"		"0"
-		"ypos"			"100"
+		"ypos"			"9999"
 		"tall"			"0"
 	}
 	"bottombarblank"
@@ -271,21 +271,22 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
-		"ypos"			"32"
+		"ypos"			"5"
 		"wide"			"300"
-		"tall"			"18"
+		"tall"			"150"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"ln32"
+		"fgcolor_override"	"customWhite"
 		
 		if_mvm
 		{
 			"xpos"			"c-190"
-			"ypos"			"1"
+			"ypos"			"40"
 			"wide"			"380"
 			"textAlignment"		"center"
 		}
@@ -295,18 +296,19 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"110"
 		"wide"			"380"
-		"tall"			"14"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"ln18"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"fgcolor"			"customWhite"
 	
 		if_mvm
 		{

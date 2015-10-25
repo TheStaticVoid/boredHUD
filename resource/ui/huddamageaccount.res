@@ -10,15 +10,15 @@
 		"PositiveColor"			"customGreen"
 		"NegativeColor"			"customWhite"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"old18"
-		"delta_item_font_big"	"old24"
+		"delta_item_font"		"bh18"
+		"delta_item_font_big"	"bh24"
 		"textAlignment"			"center"
 	}
     "DamageAccountValue"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValue"
-		"xpos"					"c75"
+		"xpos"					"c90"
 		"ypos"					"c50"
 		"zpos"					"2"
 		"wide"					"150"
@@ -28,6 +28,6 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"customWhite"
-		"font"					"old24"
+		"font"					"bh24"
 	}
 }

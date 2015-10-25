@@ -97,10 +97,10 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"20"	
-		"ypos"			"r199"	
+		"ypos"			"r150"	
 		"zpos"			"2"		
-		"wide"			"100"
-		"tall"			"200"
+		"wide"			"75"
+		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

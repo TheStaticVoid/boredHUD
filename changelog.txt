@@ -1,6 +1,24 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 10.25.2015
+----------------------------------------------
+~ Made the health and ammo numbers & boxes smaller
+~ Moved around objects to fit for the smaller numbers and boxes
+- Removed OldSansBlack font
+- Removed HitTheRoad font
++ Added Larke Neue Font
++ Added Blue Highway BD Font
++ Added health pickup text
++ Added PL elements to HUD
++ Removed black bars from spectator HUD
++ Added respawn labels
++ Added CP elements to HUD
+
+* For organization, all unmodified files have been removed from the repo
+
+
+----------------------------------------------
 				Pre-Release 10.20.2015
 ----------------------------------------------
 + Added damage numbers
