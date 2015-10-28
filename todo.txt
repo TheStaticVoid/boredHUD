@@ -1,0 +1,17 @@
+- loadout panels
+- backpack panels
+- main menu 
+- item effect meters
+- scoreboard
+- killfeed (perfect)
+- class selection
+- arena start
+- map info
+- motd
+- medic charge
+- targetid
+- tournament spectator
+- spectator
+- taunt panel
+- build menu
+- disguise menu

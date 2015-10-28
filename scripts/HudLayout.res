@@ -38,7 +38,7 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-93"
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
@@ -443,20 +443,20 @@
 
 		"MaxDeathNotices" "8"
 		"IconScale"	  "0.45"
-		"LineHeight"	  "14"
-		"LineSpacing"	  "1"
-		"CornerRadius"	  "2"
+		"LineHeight"	  "15"
+		"LineSpacing"	  "-1"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"customBlue"
-		"TeamRed"		"customRed"
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 75"		
-		"LocalBackgroundColor"	"255 255 255 255"	
+		"BaseBackgroundColor"	"40 40 40 200"		
+		"LocalBackgroundColor"	"220 220 220 200"	
 	}
 
 	HudVehicle

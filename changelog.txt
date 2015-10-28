@@ -1,6 +1,19 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 10.27.2015
+----------------------------------------------
+~ Edited the killfeed to look better
+~ Shortened the low health, buffed health, and low ammo text animations
++ Added A&D backpack switching buttons
++ Added round timer
++ Added HudTeamGoal.res
++ Added KOTH timers
+
+* Added todo.txt to keep development fluid
+
+
+----------------------------------------------
 				Pre-Release 10.25.2015
 ----------------------------------------------
 ~ Made the health and ammo numbers & boxes smaller
