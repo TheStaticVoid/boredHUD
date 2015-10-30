@@ -3,6 +3,7 @@ boredHUD Changelog
 ----------------------------------------------
 				Pre-Release 10.29.2015
 ----------------------------------------------
++ Updated for Halloween 2015
 + Added item effect meters
 + Added HudDemomanPipes.res but have not edited it yet
 
