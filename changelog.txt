@@ -1,6 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 10.29.2015
+----------------------------------------------
++ Added item effect meters
++ Added HudDemomanPipes.res but have not edited it yet
+
+
+----------------------------------------------
 				Pre-Release 10.27.2015
 ----------------------------------------------
 ~ Edited the killfeed to look better

@@ -395,6 +395,21 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"PlayerStatus_SpyMarked"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"7"
+		"wide"					"30"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"
+		"image"					""
+		"fgcolor"				"TanDark"
+	}
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -503,10 +518,10 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
 	}
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"0"
 		"ypos"			"-4"
 		"zpos"			"7"
@@ -515,7 +530,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"		"1"
@@ -574,5 +589,53 @@
 		"pin_to_sibling"		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"1"
+	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
 	}
 }

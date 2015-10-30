@@ -1,3 +1,4 @@
+- demoman pipes
 - loadout panels
 - backpack panels
 - main menu 
