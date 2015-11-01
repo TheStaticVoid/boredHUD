@@ -66,10 +66,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	
-		"ypos"			"r69"	
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"wide"			"f0"
+		"tall"			"480"
 	}
 	
 	HudDemomanCharge
@@ -77,13 +77,14 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	
-		"ypos"			"r21"	
+		"xpos"			"c-50"	
+		"ypos"			"c100"	
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"tall"			"8"
-		"MeterFG"		"White"
+		"wide"			"100"
+		"tall"			"7"
+		"MeterFG"		"customWhite"
 		"MeterBG"		"Gray"
+		"fgcolor_override"		"customWhite"
 	}	
 
 	HudBowCharge
@@ -217,7 +218,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"c105"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -235,7 +236,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"c105"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -250,7 +251,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
@@ -282,11 +283,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -769,8 +766,8 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
+		"separator_width"		"1"	// distance between the icons (including their backgrounds)
+		"separator_height"		"3"
 		"height_offset"			"0"	 // distance from the bottom of the panel
 	}
 
@@ -834,14 +831,10 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
+		"xpos"					"9999"
+		"ypos"				"9999"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
@@ -960,8 +953,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"	
 		"PaintBackgroundType"	"0"
@@ -972,9 +963,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	
-		"ypos"			"r52"	
-		"wide"			"100"
+		"xpos"			"c-75"	
+		"ypos"			"c85"	
+		"wide"			"250"
 		"tall"			"50"
 	}	
 
@@ -985,7 +976,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -998,7 +988,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"245"
 	}
@@ -1010,8 +999,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1023,8 +1010,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1048,7 +1033,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1059,7 +1043,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1072,7 +1055,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1308,7 +1290,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"customGrayPanel"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
@@ -1331,8 +1313,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1350,7 +1330,7 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	HudMiniGame
+	"HudMiniGame"
 	{
 		"fieldName" "HudMiniGame"
 		"visible" "1"

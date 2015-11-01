@@ -2,10 +2,13 @@
 Credit to anything that helped during the creation of this HUD:
 --------------------------------------------------------------------
 
-Manfred Klein -- Creator of Old Sans Black 
-http://www.dafont.com/manfred-klein.d302
+Typodermic Fonts -- Creator of Blue Highway
+http://www.dafont.com/typodermic.d1705
 
-Doodles -- His tutorial is what even gave me the power to make this HUD
+Steve Gardner -- Creator of Larke Neue
+http://www.dafont.com/steve-gardner.d5188
+
+Doodles -- Without his tutorials, I would've never figured out HUD editing
 http://doodlesstuff.com/?tutorial=tf2hud 
 
 Desmond Miles -- Steam guide let me change my TF2 menu background
@@ -20,4 +23,5 @@ http://teamfortress.tv/user/spice
 Wiethoofd -- High quality items in inventory & backpack
 http://teamfortress.tv/thread/25428/higher-quality-item-images-in-inventory-amp-loadouts
 
-Whoever runs the default TF2 HUD github repo -- you're the best!
+Whoever runs the default TF2 HUD github repo (mana?) -- you're the best!
+https://github.com/MFSTATE/tf2basehud

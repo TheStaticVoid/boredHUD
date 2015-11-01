@@ -1,6 +1,18 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 11.1.2015
+----------------------------------------------
+~ lowered animation time for hp and ammo again
+~ moved the cap icons closer together
++ Removed the pop-up square when capping points
++ Removed on the bright side messages
++ Added the demoman charge meters
++ Added killstreak label (still need to change font)
+- Removed the Huntsman charge meter (created 2 meters on screen)
+
+
+----------------------------------------------
 				Pre-Release 10.29.2015
 ----------------------------------------------
 + Updated for Halloween 2015

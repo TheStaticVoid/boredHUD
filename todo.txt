@@ -1,18 +1,14 @@
-- demoman pipes
 - loadout panels
 - backpack panels
 - main menu 
-- item effect meters
 - scoreboard
-- killfeed (perfect)
 - class selection
 - arena start
 - map info
 - motd
-- medic charge
-- targetid
 - tournament spectator
-- spectator
+- tournament ready panel
 - taunt panel
 - build menu
 - disguise menu
+- killstreak notification (change font?)

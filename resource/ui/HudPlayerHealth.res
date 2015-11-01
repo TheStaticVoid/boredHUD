@@ -220,7 +220,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -284,6 +284,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"		"PlayerStatusAnchor"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"1"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -327,7 +330,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"130"
+		"xpos"			"155"
 		"ypos"			"38"
 		"zpos"			"7"
 		"wide"			"32"

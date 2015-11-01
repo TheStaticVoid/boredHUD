@@ -204,10 +204,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.2 0.4
-	Animate PlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.1
-
+	Animate PlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -219,10 +217,10 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
+	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	
-	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.1
 }
 
 //===========================================
@@ -230,11 +228,10 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
-	Animate PlayerStatusHealthValue FgColor				"customYellow"	Linear 0.0 0.1
-	
+	Animate PlayerStatusHealthValue FgColor				"customYellow"	Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor				"customYellow"	Linear 0.0 0.0
 	RunEvent HudHealthDyingPulseLoop	0.25
+	
 }
 
 // call to loop HudHealthDyingPulse
@@ -245,23 +242,20 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
+	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	
-	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.1
+
 }
 
 //===========================================
 
 event HudLowAmmoPulse
-{
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	
-	Animate AmmoInClip					FgColor				"customYellow"		Linear 0.0 0.1
-	Animate AmmoInReserve				FgColor				"customYellow"		Linear 0.0 0.1
-	Animate AmmoNoClip					FgColor				"customYellow"		Linear 0.0 0.1
-	
+{	
+	Animate AmmoInClip					FgColor				"customYellow"		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor				"customYellow"		Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor				"customYellow"		Linear 0.0 0.0
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -273,25 +267,16 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
+	Animate AmmoInClip					FgColor				"customWhite"		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor				"customWhite"		Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor				"customWhite"		Linear 0.0 0.0
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-
-	Animate AmmoInClip					FgColor				"customWhite"		Linear 0.0 0.1
-	Animate AmmoInReserve				FgColor				"customWhite"		Linear 0.0 0.1
-	Animate AmmoNoClip					FgColor				"customWhite"		Linear 0.0 0.1
 }
 
 //===========================================
 
-event ControlPointIconShrink
-{
-	Animate HudControlPointIcons icon_expand "0" Linear 0.0 0.2
-}
-
-event ControlPointIconGrow
-{
-	Animate HudControlPointIcons icon_expand "4" Linear 0.0 0.2
-}
+// removed some stuff here
 
 // Metal Account
 
@@ -388,11 +373,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"customWhite"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"customGreen"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"customWhite"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"customGreen"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -408,8 +393,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"customWhite"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"customWhite"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -455,39 +440,12 @@ event ArenaVsPanelSlideOut
 //===========================================
 
 //Cart Alarm Pulse
-event HudCartAlarmPulse
-{
-	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
-	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
-	
-	RunEvent HudCartAlarmPulseLoop	1.2
-}
-
-event HudCartAlarmPulseLoop
-{
-	RunEvent HudCartAlarmPulse 0.0
-}
-
-event HudCartAlarmPulseStop
-{
-	StopEvent HudCartAlarmPulse 0.0
-	StopEvent HudCartAlarmPulseLoop 0.0
-}
+// remove this to remove white square thing?
 
 //===========================================
 
 // Active Timer BG Pulse
-event ActiveTimerBGPulse
-{
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
-	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
-	
-	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
-}
+// removed some other stuff
 
 //===========================================
 
