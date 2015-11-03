@@ -1,6 +1,20 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 11.3.2015
+----------------------------------------------
+~ Moved target ID a tad lower so it doesnt overlap the effect meters
++ Added CTF objectives
++ Added PLR objectives
++ Added engineer metal count
++ Added disguise panel
++ Added dropped weapon pickup panel
++ Added Halloween Boss HP panel (not changed from stock)
++ Added tournament mode ready panel  (still haven't done readymode yet)
++ Added class selection menu
+
+
+----------------------------------------------
 				Pre-Release 11.1.2015
 ----------------------------------------------
 ~ lowered animation time for hp and ammo again

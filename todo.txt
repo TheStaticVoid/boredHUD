@@ -2,13 +2,18 @@
 - backpack panels
 - main menu 
 - scoreboard
-- class selection
+- class selection  <-----
 - arena start
 - map info
 - motd
 - tournament spectator
-- tournament ready panel
+- tournament readymode
 - taunt panel
 - build menu
 - disguise menu
-- killstreak notification (change font?)
+- rd objective panels
+- pd objective panels
+- engineer buildings
+- mvm
+- mvm boss health
+- chat
