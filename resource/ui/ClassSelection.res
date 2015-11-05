@@ -800,7 +800,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 195"
 		"PaintBackgroundType" "0"
 	}	
 	

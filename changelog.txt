@@ -1,6 +1,16 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 11.4.2015
+----------------------------------------------
++ Added chat box -- currently overlays engy buildings
++ Added Map Info menu
++ Added default MOTD
++ Added team selection menu
++ Added video intro menu
+
+
+----------------------------------------------
 				Pre-Release 11.3.2015
 ----------------------------------------------
 ~ Moved target ID a tad lower so it doesnt overlap the effect meters

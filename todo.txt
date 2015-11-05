@@ -2,10 +2,7 @@
 - backpack panels
 - main menu 
 - scoreboard
-- class selection  <-----
 - arena start
-- map info
-- motd
 - tournament spectator
 - tournament readymode
 - taunt panel
@@ -16,4 +13,3 @@
 - engineer buildings
 - mvm
 - mvm boss health
-- chat
