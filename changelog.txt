@@ -1,6 +1,15 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 11.5.2015
+----------------------------------------------
++ Added stopwatch timer
++ Added tournament spectator HUD
++ Added Engineer buildings HUD
++ Added freezepanel
+
+
+----------------------------------------------
 				Pre-Release 11.4.2015
 ----------------------------------------------
 + Added chat box -- currently overlays engy buildings

@@ -3,13 +3,15 @@
 - main menu 
 - scoreboard
 - arena start
-- tournament spectator
-- tournament readymode
+- tournament readymode < --- need alt
 - taunt panel
 - build menu
 - disguise menu
 - rd objective panels
 - pd objective panels
-- engineer buildings
 - mvm
 - mvm boss health
+- inspect panel
+- mannpower
+
+- spy sap engy buildings  < --- need alt

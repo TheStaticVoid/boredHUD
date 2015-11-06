@@ -11,7 +11,7 @@
 		"tall"					"480"
 
 		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
+		"team1_player_base_y"				"35"
 		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
@@ -33,7 +33,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"DefaultSmall"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -162,6 +162,13 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				
+				if_readymode
+				{
+					"visible"	"0"
+					"xpos"		"9999"
+					"ypos"		"9999"
+				}
 			}
 			
 			"ReadyBG"
