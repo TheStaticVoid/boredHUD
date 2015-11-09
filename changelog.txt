@@ -1,6 +1,15 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 11.8.2015
+----------------------------------------------
+~ updated the installation.txt to be appropriate with this HUD
+~ Widened the time panel so it doesn't get cut off at larger time limits
++ Implemented the TF2HUD+ PLR HUD design
++ Added scoreboard // plan to do 6v6 scoreboard later
+
+
+----------------------------------------------
 				Pre-Release 11.5.2015
 ----------------------------------------------
 + Added stopwatch timer

@@ -1,9 +1,7 @@
-- loadout panels
+- loadout panels < -- use tf2hud+ as base
 - backpack panels
 - main menu 
-- scoreboard
 - arena start
-- tournament readymode < --- need alt
 - taunt panel
 - build menu
 - disguise menu
@@ -13,5 +11,15 @@
 - mvm boss health
 - inspect panel
 - mannpower
+- 6v6 scoreboard
 
+- tournament readymode < --- need alt
 - spy sap engy buildings  < --- need alt
+- dueling scoreboard <-- need alt
+
+screenshots:
+cp
+plr
+pd
+ctf
+koth

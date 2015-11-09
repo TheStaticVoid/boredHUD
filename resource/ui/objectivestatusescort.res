@@ -128,12 +128,16 @@
 		
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_square"
+			"xpos"				"60"
+			"border"			"NotificationDefault"
+			"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_square"
+			"xpos"				"60"
+			"border"			"NotificationDefault"
+			"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		}
 	}
 	
