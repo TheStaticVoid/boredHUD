@@ -1,6 +1,12 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 12.23.2015
+----------------------------------------------
+~ updated for Tough Break, plan to continue HUD development soon
+
+
+----------------------------------------------
 				Pre-Release 11.8.2015
 ----------------------------------------------
 ~ updated the installation.txt to be appropriate with this HUD
