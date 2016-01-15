@@ -1,6 +1,24 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 1.15.2016
+----------------------------------------------
+~ Fixed scoreboard for latest patch
+~ Fixed spectator targetID
+~ Fixed captures being green in the scoreboard
+~ Fixed engineer pickup appearing in spectator
+~ Fixed spectators being in the wrong spot
+~ Fixed the number of engineers being in the wrong spot
++ Added disguise menu
++ Added taunt menu
++ Added inspection panel
++ Added dueling in the scoreboard
++ Added arena team menu
++ Added rd_ HUD
++ Added pd_ HUD
+
+
+----------------------------------------------
 				Pre-Release 12.23.2015
 ----------------------------------------------
 ~ updated for Tough Break, plan to continue HUD development soon

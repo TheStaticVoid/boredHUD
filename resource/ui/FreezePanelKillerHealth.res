@@ -31,13 +31,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"1"
-		"ypos"			"2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	

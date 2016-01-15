@@ -1197,7 +1197,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"xpos"			"c240"
-		"ypos"			"262"
+		"ypos"			"255"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"

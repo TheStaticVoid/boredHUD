@@ -14,16 +14,17 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"avatar_width"		"57"	
+		"avatar_width"		"55"	
+		"spacer"			"5"
 		"name_width"		"118"	
-		"name_width_short"	"85"			
-		"status_width"		"15"	
-		"nemesis_width"		"15"	
-		"class_width"		"15"	
+		"name_width_short"	"85"		
+		"nemesis_width"		"25"	
+		"class_width"		"25"	
 		"score_width"		"25"
 		"ping_width"		"23"	
 		"stats_width"		"30"
-		"killstreak_width"	"20"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -384,7 +385,7 @@
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"115"
+		"xpos"			"15"
 		"ypos"			"357"	
 		"zpos"			"4"
 		"wide"			"424"
@@ -557,7 +558,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"0"
+		"xpos"			"20"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -576,7 +577,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"ScoreboardSmall"
+			"font"			"ln14"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -650,7 +651,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"customWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -663,7 +664,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"bh12"
 			}
 			"Score"
 			{
@@ -672,7 +673,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"east"
 				"xpos"			"50"
-				"ypos"			"23"
+				"ypos"			"20"
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
@@ -680,7 +681,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"bh24"
+				"fgcolor"			"customWhite"
 			}
 		}
 
@@ -729,7 +731,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"customWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -742,7 +744,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"bh12"
 			}
 			"Score"
 			{
@@ -751,7 +753,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"west"
 				"xpos"			"50"
-				"ypos"			"23"
+				"ypos"			"20"
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
@@ -759,7 +761,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"bh24"
+				"fgcolor"			"customWhite"
 			}
 		}
 	}
@@ -981,10 +984,10 @@
 			"enabled"		"1"
 			"fgcolor"			"customWhite"
 		}					
-		"Captures"
+		"Captures1"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures1"
 			"font"			"ln12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
