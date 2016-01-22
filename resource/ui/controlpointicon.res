@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"12"
+		"xpos"		"18"
 		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"9"

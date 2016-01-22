@@ -1,6 +1,16 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 1.21.2016
+----------------------------------------------
+~ Fixed the bomb icon in MvM
++ Added MvM Upgrade Panel
++ Added MvM wave panel
++ Added MvM currency numbers
++ Added main menu
+
+
+----------------------------------------------
 				Pre-Release 1.15.2016
 ----------------------------------------------
 ~ Fixed scoreboard for latest patch

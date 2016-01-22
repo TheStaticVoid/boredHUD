@@ -374,12 +374,14 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-65"
+			"ypos"		"r70"
 		}
 		
 		"if_hybrid_double"
 		{
-			"xpos"		"c-115"
+			"xpos"		"c-65"
+			"ypos"		"r70"
 		}
 
 		"if_specialdelivery"

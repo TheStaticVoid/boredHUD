@@ -29,10 +29,10 @@
 		
 		"if_mvm"
 		{
-			"xpos"			"62"
-			"ypos"			"21"
-			"wide"			"38"
-			"tall"			"38"
+			"xpos"			"53"
+			"ypos"			"13"
+			"wide"			"25"
+			"tall"			"25"
 		}	
 	}				
 	"StatusIcon"

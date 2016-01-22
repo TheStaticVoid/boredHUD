@@ -102,8 +102,8 @@
 			"src_corner_height"	"23"	// pixels inside the image
 			"src_corner_width"	"23"
 			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 
 		}
 		
@@ -154,7 +154,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"PLAYER"
-			"font"			"HudFontSmallBold"
+			"font"			"bh24"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -381,7 +381,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GreyedOutLabel"
-			"font"			"HudFontSmall"
+			"font"			"bh14"
+			"fgcolor"			"customWhite"
 			"labelText"		"%powerup_hint%"
 			"textAlignment"	"north"
 			"wrap"			"1"
@@ -413,7 +414,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_Quick_Equip_Bottle"
-			"font"			"HudFontSmallestBold"
+			"font"			"ln14"
+			"fgcolor"			"customWhite"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -438,7 +440,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#OpenGeneralLoadout"
-			"font"			"HudFontSmallestBold"
+			"font"			"ln14"
+			"fgcolor"			"customWhite"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -469,7 +472,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"			"ItemFontAttribLarge"
+			"font"			"ln12"
+			"fgcolor"			"customWhite"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -523,7 +527,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmall"
+			"font"			"ln12"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
@@ -535,13 +539,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"			"customWhite"
 		}
 		
 		"UpgradeItemStatsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemStatsLabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"ln10"
 			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"30"
@@ -560,7 +565,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"bh24"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -571,25 +576,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"121 195 58 255"
+			"fgcolor"		"customGreen"
 		}
 		
 		"CreditsTextLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"ln18"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
-			"ypos"			"280"
+			"ypos"			"281"
 			"wide"			"500"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"			"customWhite"
 		}
 		
 		"CancelButton"
@@ -607,11 +612,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
-			"font"			"HudFontSmallestBold"
+			"font"			"bh14"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"			"customWhite"
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -632,11 +638,12 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
-			"font"			"HudFontSmallestBold"
+			"font"			"bh14"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"			"customWhite"
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -657,7 +664,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeRespec"
-			"font"			"HudFontSmallestBold"
+			"font"			"bh14"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -701,15 +708,15 @@
 			"src_corner_height"	"23"	// pixels inside the image
 			"src_corner_width"	"23"
 			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 		}
 		
 		"TipText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
+			"font"			"ln12"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
 			"xpos"			"10"
@@ -722,7 +729,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"customWhite"
 		}
 		
 		"NextTipButton"
@@ -740,6 +747,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		" > "
+			"fgcolor"			"customWhite"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

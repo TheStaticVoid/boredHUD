@@ -852,8 +852,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 
 		if_competitive
 		{
@@ -872,7 +872,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"bh24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -885,6 +885,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		"fgcolor"			"customWhite"
 
 		if_competitive
 		{
@@ -903,7 +904,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			""
+		"font"			"bh24"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"

@@ -1,19 +1,18 @@
 - loadout panels < -- use tf2hud+ as base
-- backpack panels
-- main menu 
+- backpack menus
+- Quest log
 - build menus
+- win panel
 
-- mvm upgrade panel
-
-- mvm
-- mvm boss health
 - mannpower
 - 6v6 scoreboard
 
-- tournament readymode < --- need alt
-- spy sap engy buildings  < --- need alt
+need alt:
+- tournament readymode 
+- spy sap engy buildings  
+- rd_carry
 
-rd_carry
+comp timer pl
 
 screenshots:
 cp
