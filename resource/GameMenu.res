@@ -49,6 +49,13 @@
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
+	"ChangeScoreboardButton"
+	{
+		"label" "SWAP SCOREBOARD"
+		"command" "engine toggle cl_hud_minmode"
+		"subimage"	"glyph_vr"
+		"OnlyInGame"	"1"
+	}
 	"ReplayBrowserButton"
 	{
 		"label" "#GameUI_GameMenu_ReplayDemos"

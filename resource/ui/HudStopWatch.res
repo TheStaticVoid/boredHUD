@@ -111,13 +111,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"bh14"
+		"font"			"ln12"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"west"
 		"xpos"			"25"
-		"ypos"			"8"
+		"ypos"			"4"
 		"zpos"			"4"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -131,20 +131,20 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchDescriptionBG"
-		"xpos"			"0"
-		"ypos"			"27"
+		"xpos"			"20"
+		"ypos"			"31"
 		"zpos"			"-1"
-		"wide"			"125"
+		"wide"			"110"
 		"tall"			"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
+		"image"			"../HUD/tournament_panel_brown"
 
 
-		"src_corner_height"	"2"				// pixels inside the image
-		"src_corner_width"	"2"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
@@ -154,11 +154,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"bh32"
+		"font"			"bh14"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
-		"xpos"			"0"
-		"ypos"			"23"
+		"xpos"			"11"
+		"ypos"			"26"
 		"zpos"			"4"
 		"wide"			"125"
 		"tall"			"30"
@@ -167,5 +167,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
+		"fgcolor"			"customWhite"
 	}
 }

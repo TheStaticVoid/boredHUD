@@ -30,9 +30,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"6"
+		"xpos"			"5"
 		"ypos"			"9"
-		"wide"			"315"
+		"wide"			"316"
 		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -40,6 +40,9 @@
 		"enabled"		"1"
 		"fillcolor"			"0 0 225 195"
 		"scaleImage"		"1"
+		
+		"tall_minmode"		"20"
+		"ypos_minmode"		"200"
 		
 		if_mvm
 		{
@@ -61,6 +64,8 @@
 		"fillcolor"		"150 0 0 195"
 		"scaleImage"		"1"
 		
+		"tall_minmode"		"20"
+		"ypos_minmode"		"200"
 		if_mvm
 		{
 			"visible"		"0"
@@ -81,6 +86,8 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
+		"tall_minmode"		"152"
+		"ypos_minmode"					"220"
 		if_mvm
 		{
 			"visible"		"0"
@@ -99,8 +106,8 @@
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"			"customWhite"
 		
 		if_mvm
@@ -126,6 +133,7 @@
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		"ypos_minmode"			"180"
 		if_mvm
 		{
 			"visible"		"0"
@@ -171,6 +179,8 @@
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		"ypos_minmode"		"197"
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -189,8 +199,8 @@
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"			"customWhite"
 		
 		if_mvm
@@ -215,6 +225,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
+		
+		"ypos_minmode"			"180"
 		
 		if_mvm
 		{
@@ -261,6 +273,8 @@
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		
+		"ypos_minmode"		"197"
 		if_mvm
 		{
 			"visible"		"0"
@@ -283,6 +297,8 @@
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		
+		"ypos_minmode"	"183"
 		if_mvm
 		{
 			"ypos"			"0"
@@ -305,6 +321,7 @@
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		"ypos_minmode"	"183"
 		if_mvm
 		{
 			"ypos"			"0"
@@ -328,6 +345,9 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
+		
+		"ypos_minmode"		"227"
+		"tall_minmode"		"145"
 		if_mvm
 		{
 			"visible"		"0"
@@ -351,6 +371,8 @@
 		"textcolor"		"red"
 		//"show_columns"	"1"
 
+		"ypos_minmode"		"227"
+		"tall_minmode"		"145"
  		if_mvm
  		{
  			"visible"		"0"
@@ -373,6 +395,9 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
+		
+		"tall_minmode" "130"
+		"ypos_minmode"			"240"
 		if_mvm
 		{
 			"visible"		"0"

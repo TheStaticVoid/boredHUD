@@ -113,7 +113,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
 		"xpos"				"0"
-		"ypos"				"r100"
+		"ypos"				"r175"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"

@@ -1,6 +1,19 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Pre-Release 1.23.2016
+----------------------------------------------
+~ Fixed the MOTD panel in main menu not displaying
+~ Fixed the time to beat in stopwatch not being configured right
++ Added avatar and username to main menu
++ Added winpanel.res
++ Moved the spy sap lotaion to not overlap chat
++ Correctly placed the pd_ carried bar
++ Added 6v6 Scoreboard
+- Removed the HudTeamGoalTournament from the HUD.  It clears things up
+
+
+----------------------------------------------
 				Pre-Release 1.21.2016
 ----------------------------------------------
 ~ Fixed the bomb icon in MvM

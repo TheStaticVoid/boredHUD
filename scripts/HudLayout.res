@@ -270,7 +270,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"-10"	
-		"ypos"		"85"	
+		"ypos"		"105"	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -799,7 +799,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"290"
 		"wide"					"300"
 		"tall"					"300"
 	}
@@ -984,10 +984,10 @@
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"wide"					"320"
 		"tall"					"245"
 	}

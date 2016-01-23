@@ -185,11 +185,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"60"
-		"ypos"			"24"
+		"xpos"			"45"
+		"ypos"			"10"
 		"zpos"			"-99"
-		"wide"			"128"
-		"tall"			"32"
+		"wide"			"80"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
@@ -220,7 +220,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v1.21.2016"
+		"labelText"				"boredHUD v1.22.2016"
 		"textAlignment"		"center"
 		"xpos"					"c300"
 		"ypos"					"r150"
@@ -387,7 +387,56 @@
 			}				
 		}		
 	}
+	
+// CUSTOM 2010 MAIN MENU STUFF
 
+    "AvatarImage"
+    {
+        "ControlName"	"CAvatarImagePanel"
+        "fieldName"	"AvatarImage"
+        "xpos"	                        "40"
+        "ypos"	                        "35"
+        "zpos"	                                "0"
+        "wide"	                            "30"
+        "tall"	                            "30"
+        "visible"	                "1"
+        "enabled"                       	"1"
+        "image"                             	""
+        "scaleImage"	                "1"
+        "color_outline"	                        "52 48 45 255"
+    }
+
+    "TopLeftDataPanel"
+    {
+        "ControlName"                                    "EditablePanel"
+        "fieldName"                              "TopLeftDataPanel"
+        "xpos"                                                  "45"
+        "ypos"                                           "31"
+        "zpos"                                           "-1"
+        "wide"                                       "600"
+        "tall"                                          "35"
+        "visible"                                       "1"
+        "PaintBackgroundType"                       "2"
+        "bgcolor_override"              "0 0 0 0"
+            "WelcomeLabel"
+            {
+                "ControlName"	        "CExLabel"
+                "fieldName"	        "WelcomeLabel"
+                "font"	        "bh24"
+                "labelText"	        "%playername%" //#WelcomeBack or %playername%
+                "textAlignment"	    "west"
+                "xpos"	                "35"
+                "ypos"	                "-10"
+                "wide"	                "600"
+                "tall"	                        "60"
+                "autoResize"	            "0"
+                "pinCorner"	            "0"
+                "visible"	                   "1"     
+                "enabled"	            "1"
+                "fgcolor_override" "customWhite"
+            }
+    }
+	
 	"TopRightContainer"
 	{
 			"ControlName"	"EditablePanel"
@@ -633,7 +682,7 @@
 		}
 	}
 	
-	"MOTD_ShowButtonPanel"
+		"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
@@ -2206,7 +2255,7 @@
 
 		if_competitive
 		{
-			"ypos"		"216"
+			"ypos"		"165"
 		}
 
 		"SubButton"
@@ -2215,7 +2264,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"125"
+			"wide"			"150"
 			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2258,6 +2307,71 @@
 	}
 	
 	// command comes from GameMenu.res
+	"ChangeScoreboardButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ChangeScoreboardButton"
+		"xpos"			"40"
+		"ypos"			"195"
+		"zpos"			"11"
+		"wide"			"200"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"QuickplayChangeButton"
+		"navDown"		"CharacterSetupButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"200"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"bh18"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "customWhite"
+			"armedFgColor_override" "customGreen"
+			"depressedFgColor_override" "customWhite"
+			
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"Black"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+
 	"ChangeServerButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2328,7 +2442,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"60"
-		"ypos"			"175"
+		"ypos"			"168"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
@@ -2394,7 +2508,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"85"
-		"ypos"			"175"
+		"ypos"			"168"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
@@ -2461,7 +2575,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
 		"xpos"			"110"
-		"ypos"			"175"
+		"ypos"			"168"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"

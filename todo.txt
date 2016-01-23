@@ -2,21 +2,5 @@
 - backpack menus
 - Quest log
 - build menus
-- win panel
 
-- mannpower
-- 6v6 scoreboard
-
-need alt:
-- tournament readymode 
-- spy sap engy buildings  
-- rd_carry
-
-comp timer pl
-
-screenshots:
-cp
-plr
-pd
-ctf
-koth
+- mannpower supernova powerup meter
