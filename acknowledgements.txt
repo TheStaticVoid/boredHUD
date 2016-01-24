@@ -26,5 +26,10 @@ https://github.com/MFSTATE/tf2basehud
 omnibyoulater -- referenced how to position spectator tournament
 http://www.teamfortress.tv/user/omni
 
-Snowshoe -- Used his loadout panel as a base & parts of his PLR HUD
+Snowshoe -- Used his loadout panel & a concept of his PLR HUD
 http://www.teamfortress.tv/user/Snowshoe
+
+raysfire -- Referenced how to make a single main menu background
+https://github.com/raysfire
+
+Google Images -- for space background haha

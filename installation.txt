@@ -9,6 +9,11 @@ C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\
 or if you're on a 64-bit OS:
 C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\
 
+If you are on Linux, this may be found in:
+~/.steam/steam/steamapps/common/Team Fortress 2/tf/custom/
+
+NOTE: On Linux, the boredHUD directory MUST be in lowercase (so, "boredhud").
+
 If you have installed Steam into another directory, please navigate to it and follow the above folder navigation.
 4.) Run TF2 and the HUD should be installed
 

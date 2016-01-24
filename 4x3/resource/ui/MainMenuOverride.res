@@ -220,9 +220,9 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v1.24.2016"
+		"labelText"				"boredHUD v1.23.2016"
 		"textAlignment"		"center"
-		"xpos"					"c300"
+		"xpos"					"c150"
 		"ypos"					"r150"
 		"wide"					"150"
 		"tall"						"45"
@@ -459,7 +459,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c-200"
+		"xpos"			"c-85"
 		"ypos"			"30"
 		"zpos"			"10"
 		"wide"			"20"
@@ -561,7 +561,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c-200"
+		"xpos"			"c-85"
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"20"
@@ -686,7 +686,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-200"
+		"xpos"			"c-85"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"20"
@@ -3938,7 +3938,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c135"
+		"xpos"			"c20"
 		"ypos"			"57"
 		"zpos"			"-60"
 		"wide"			"320"

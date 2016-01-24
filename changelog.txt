@@ -12,6 +12,12 @@ boredHUD Changelog
 + Added 6v6 Scoreboard
 - Removed the HudTeamGoalTournament from the HUD.  It clears things up
 
+Part 2:
++ Added main menu background
++ Imported snowshoe's character loadout panel
++ Added engineer build menus
++ Added basic 4:3 and 16:10 support
+
 
 ----------------------------------------------
 				Pre-Release 1.21.2016

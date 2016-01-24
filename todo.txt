@@ -1,6 +1,2 @@
-- loadout panels < -- use tf2hud+ as base
-- backpack menus
-- Quest log
-- build menus
-
+- Quest log opening
 - mannpower supernova powerup meter
