@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"14"
@@ -12,8 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"fillcolor"		"customGrayPanel"
+		"paintBackgroundType"		"0"
 	}
 
 	"Divider"

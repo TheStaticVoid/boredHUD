@@ -1,6 +1,14 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Public Release 1.24.2016
+----------------------------------------------
++ Changed the background to the spy disguise panel
++ Changed the background to the engineer build/destroy panels
++ Changed the background to the engineer eureka effect panel
++ Changed the background to the winpanel
+
+----------------------------------------------
 				Pre-Release 1.23.2016
 ----------------------------------------------
 ~ Fixed the MOTD panel in main menu not displaying

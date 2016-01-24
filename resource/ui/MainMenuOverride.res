@@ -422,7 +422,7 @@
             {
                 "ControlName"	        "CExLabel"
                 "fieldName"	        "WelcomeLabel"
-                "font"	        "bh24"
+                "font"	        "bh18"
                 "labelText"	        "%playername%" //#WelcomeBack or %playername%
                 "textAlignment"	    "west"
                 "xpos"	                "35"

@@ -220,7 +220,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v1.23.2016"
+		"labelText"				"boredHUD v1.24.2016"
 		"textAlignment"		"center"
 		"xpos"					"c150"
 		"ypos"					"r150"
