@@ -206,6 +206,7 @@ event HudHealthBonusPulse
 {
 	Animate PlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
 	Animate SpectatorPlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTournament FgColor			"customGreen"	Linear 0.0 0.0
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -219,6 +220,7 @@ event HudHealthBonusPulseStop
 {
 	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
 	Animate SpectatorPlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTournament FgColor		"customWhite"	Linear 0.0 0.0
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }

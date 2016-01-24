@@ -106,10 +106,12 @@
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		"ypos_minmode"		"195"
+		"font_minmode"		"bh24"
 		if_mvm
 		{
 			"visible"		"0"
@@ -199,10 +201,12 @@
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"			"customWhite"
 		
+		"ypos_minmode"		"195"
+		"font_minmode"		"bh24"
 		if_mvm
 		{
 			"visible"		"0"
