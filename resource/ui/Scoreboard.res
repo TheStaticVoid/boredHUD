@@ -28,7 +28,7 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"5"
 		"ypos"			"9"
@@ -38,12 +38,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"0 0 225 195"
+		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"		"1"
+		"src_corner_height" "40"
+		"src_corner_width" "40"
+		"draw_corner_width"		"0"
+		"draw_corner_height"		"0"
 		
 		"tall_minmode"		"20"
 		"ypos_minmode"		"200"
-		
 		if_mvm
 		{
 			"visible"		"0"
@@ -51,7 +54,7 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"320"
 		"ypos"			"9"
@@ -61,8 +64,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"150 0 0 195"
+		"image"		"../hud/misc_ammo_area_red"
 		"scaleImage"		"1"
+		"src_corner_height" "40"
+		"src_corner_width" "40"
+		"draw_corner_width"		"0"
+		"draw_corner_height"		"0"
 		
 		"tall_minmode"		"20"
 		"ypos_minmode"		"200"

@@ -1,6 +1,15 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 1.25.2016
+----------------------------------------------
+~ Adjusted the color of the scoreboard tabs to be brighter
+~ Fixed the taunt menu not having the same backgrounds as the disguise and build menus
+~ Adjusted the color of the winpanel tabs to be the same as the scoreboard
+~ Fixed the new icon appearing in the mainmenu
+
+
+----------------------------------------------
 				Public Release 1.24.2016
 ----------------------------------------------
 + Changed the background to the spy disguise panel

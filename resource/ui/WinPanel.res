@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"65"
 			"ypos"			"15"
@@ -22,12 +22,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"			"customBlue"
+			"image"			"../hud/misc_ammo_area_blue"
 			"paintBackgroundType"	"0"
+			"src_corner_height" "40"
+			"src_corner_width" "40"
+			"draw_corner_width"		"0"
+			"draw_corner_height"		"0"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"165"
 			"ypos"			"15"
@@ -37,8 +41,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"customRed"
+			"image"			"../hud/misc_ammo_area_red"
 			"paintBackgroundType"	"0"
+			"src_corner_height" "40"
+			"src_corner_width" "40"
+			"draw_corner_width"		"0"
+			"draw_corner_height"		"0"
 		}
 		"BlueTeamLabel"
 		{

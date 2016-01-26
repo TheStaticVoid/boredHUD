@@ -18,6 +18,14 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		/// boredHUD custom colors ///
+		"customRed"			"232 39 49 255" 			// team indicator color
+		"customYellow"			"255 206 115 255"		// low hp indicator
+		"customBlue"			"41 104 227 255"			// team indicator color
+		"customGreen" 		"167 255 158 255"			// buffed hp indicator
+		"customGrayPanel"	"15 15 15 175"			//	background color for panels
+		"customWhite"			"255 255 255 255"		// font color
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -196,14 +204,6 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-		
-		/// boredHUD custom colors ///
-		"customRed"			"232 39 49 255" 			// team indicator color
-		"customYellow"			"255 206 115 255"		// low hp indicator
-		"customBlue"			"41 104 227 255"			// team indicator color
-		"customGreen" 		"167 255 158 255"			// buffed hp indicator
-		"customGrayPanel"	"15 15 15 175"			//	background color for panels
-		"customWhite"			"255 255 255 255"		// font color
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
