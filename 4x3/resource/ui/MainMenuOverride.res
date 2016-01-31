@@ -220,7 +220,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v1.25.2016"
+		"labelText"				"boredHUD v1.31.2016"
 		"textAlignment"		"center"
 		"xpos"					"c150"
 		"ypos"					"r150"
@@ -319,7 +319,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-235"
+		"xpos"			"c-130"
 		"ypos"			"169"
 		"zpos"			"12"
 		"wide"			"20"
@@ -422,7 +422,7 @@
             {
                 "ControlName"	        "CExLabel"
                 "fieldName"	        "WelcomeLabel"
-                "font"	        "bh24"
+                "font"	        "bh18"
                 "labelText"	        "%playername%" //#WelcomeBack or %playername%
                 "textAlignment"	    "west"
                 "xpos"	                "35"
@@ -1783,8 +1783,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c-285"
-		"ypos"			"397"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"250"
 		"tall"			"20"
 		"autoResize"	"0"

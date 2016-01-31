@@ -1,6 +1,14 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 1.31.2016
+----------------------------------------------
+~ Fixed several mainmenu issues for other resolutions
++ Added closecaptioning support
++ Added a HudPlayerHealth_cross.res
+
+
+----------------------------------------------
 				Release 1.25.2016
 ----------------------------------------------
 ~ Adjusted the color of the scoreboard tabs to be brighter
