@@ -1,6 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 2.6.2016
+----------------------------------------------
+~ Adjusted the animation files to ensure that hudanimations_tf.txt doesn't become out of date in future updates
+
+
+
+----------------------------------------------
 				Release 1.31.2016
 ----------------------------------------------
 ~ Fixed several mainmenu issues for other resolutions

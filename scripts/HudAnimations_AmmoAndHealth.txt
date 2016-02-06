@@ -1,0 +1,76 @@
+//===========================================
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate PlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor				"customGreen"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTournament FgColor			"customGreen"	Linear 0.0 0.0
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueTournament FgColor		"customWhite"	Linear 0.0 0.0
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate PlayerStatusHealthValue FgColor				"customYellow"	Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor				"customYellow"	Linear 0.0 0.0
+	RunEvent HudHealthDyingPulseLoop	0.25
+	
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate PlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	Animate SpectatorPlayerStatusHealthValue FgColor			"customWhite" Linear 0.0 0.0
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{	
+	Animate AmmoInClip					FgColor				"customYellow"		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor				"customYellow"		Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor				"customYellow"		Linear 0.0 0.0
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	Animate AmmoInClip					FgColor				"customWhite"		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor				"customWhite"		Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor				"customWhite"		Linear 0.0 0.0
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+}
