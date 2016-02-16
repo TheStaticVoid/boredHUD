@@ -1,5 +1,2 @@
 - Quest log opening
 - mannpower supernova powerup meter
-
-- scoreboard top bars need to be a more tf2 themed color
-- taunt menu doesn't have the same bg as the build and demolish menus
