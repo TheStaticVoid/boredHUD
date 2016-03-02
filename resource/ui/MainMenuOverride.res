@@ -220,7 +220,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v2.6.2016"
+		"labelText"				"boredHUD v3.1.2016"
 		"textAlignment"		"center"
 		"xpos"					"c300"
 		"ypos"					"r150"
@@ -332,10 +332,6 @@
 		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"183"
-		}
 		
 		"SubButton"
 		{
@@ -1264,11 +1260,6 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"180"
-		}
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1334,10 +1325,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"326"
-		}
+
 
 		"SubButton"
 		{
@@ -1402,11 +1390,6 @@
 		"navDown"		"QuitButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
-		if_competitive
-		{
-			"ypos"		"379"
-		}
 
 		"SubButton"
 		{
@@ -1473,10 +1456,6 @@
 		"navRight"		"SteamWorkshopButton"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"326"
-		}
 
 		"SubButton"
 		{
@@ -1543,10 +1522,6 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"253"
-		}
 
 		"SubButton"
 		{
@@ -1626,10 +1601,6 @@
 		"navRight"		"GeneralStoreButton"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"253"
-		}
 
 		"SubButton"
 		{
@@ -1691,10 +1662,6 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
-		if_competitive
-		{
-			"ypos"		"251"
-		}
 	}
 	"CustomizeLabel"
 	{
@@ -1713,10 +1680,6 @@
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
 
-		if_competitive
-		{
-			"ypos"		"252"
-		}
 	}		
 
 	"CreateBGPanel"
@@ -1732,10 +1695,6 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
-		if_competitive
-		{
-			"ypos"		"315"
-		}
 	}
 	"CreateLabel"
 	{
@@ -1754,10 +1713,6 @@
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
 
-		if_competitive
-		{
-			"ypos"		"314"
-		}
 	}
 	
 	"VRBGPanel"
@@ -1773,10 +1728,6 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
-		if_competitive
-		{
-			"ypos"		"373"
-		}
 	}
 
 	"ShowPromoCodesButton"
@@ -2252,12 +2203,7 @@
 		"navDown"		"ResumeGameButton"
 		"navRight"		"CreateServerButton"
 		"navToRelay"	"SubButton"
-
-		if_competitive
-		{
-			"ypos"		"165"
-		}
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"

@@ -1,6 +1,22 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 3.1.2016 pt 2
+----------------------------------------------
+~ This update should fix everything for matchmaking.  Custom files may still crash the game, so be wary.
++ Added new fonts to clientscheme
++ Fixed HudTournament ready up panel
++ Fixed the winpanel at the end not displaying properly
+
+
+----------------------------------------------
+				Release 3.1.2016
+----------------------------------------------
++ Added necessary files for the Matchmaking update!
+!! Report any bugs to me right away !!
+
+
+----------------------------------------------
 				Release 2.6.2016
 ----------------------------------------------
 ~ Adjusted the animation files to ensure that hudanimations_tf.txt doesn't become out of date in future updates
