@@ -33,7 +33,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultSmall"
+				"font"			"DefaultVerySmall"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -162,13 +162,6 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
-				
-				if_readymode
-				{
-					"visible"	"0"
-					"xpos"		"9999"
-					"ypos"		"9999"
-				}
 			}
 			
 			"ReadyBG"
@@ -739,7 +732,7 @@
 		"font"			"TFFontSmall"
 		"fgcolor"		"customWhite"
 		"xpos"			"0"
-		"ypos"			"57"
+		"ypos"			"54"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"
@@ -831,6 +824,48 @@
 			"tall"			"12"
 			"visible"		"1"
 			"fgcolor"		"Black"
+		}
+	}
+	
+	"TournamentReadyHintIcon"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentReadyHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"0"
+		"ypos"			"54"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"Y"
+		"textAlignment"	"left"
+
+		if_mvm
+		{
+			"xpos"			"166"
+			"ypos"			"101"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_competitive
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_readymode
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
 		}
 	}
 	

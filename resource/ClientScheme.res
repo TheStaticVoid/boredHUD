@@ -1013,6 +1013,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		HudHintText
 		{
 			"1"
