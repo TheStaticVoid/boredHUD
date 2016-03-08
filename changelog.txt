@@ -1,6 +1,14 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 3.8.2016
+----------------------------------------------
+~ Fixed the tournament ready up panel to be what it was before the last update
++ Added boredHUD fonts to the match summary panel
++ Added avatars to the in-game voice labels
+
+
+----------------------------------------------
 				Release 3.1.2016 pt 2
 ----------------------------------------------
 ~ This update should fix everything for matchmaking.  Custom files may still crash the game, so be wary.

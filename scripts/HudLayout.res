@@ -684,23 +684,27 @@
 		"wide" "145"
 		"tall" "400"
 
-		"item_wide"	"135"
+		"item_wide"	"140"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+        "avatar_xpos"       "-11"
+        "avatar_ypos"       "-1"
+        "avatar_tall"           "18"
+        "avatar_wide"       "18"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
+		"dead_xpos"			"14"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
-		"show_voice_icon"	"1"
+		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
-		"icon_xpos"			"15"
+		"icon_xpos"			"25"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
+		"text_xpos"			"30"
 	}
 
 	HudHintDisplay

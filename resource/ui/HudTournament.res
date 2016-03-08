@@ -283,8 +283,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
 				
 				if_mvm
 				{
@@ -449,8 +449,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		
 		if_mvm
 		{
@@ -475,7 +475,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmall"
+		"font"			"bh14"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"5"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -527,8 +528,8 @@
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		
 		if_mvm
 		{
@@ -551,7 +552,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"ln14"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -587,7 +589,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"bh14"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -638,8 +641,8 @@
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		"proportionaltoparent"	"1"
 		
 		if_mvm
@@ -663,7 +666,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"ln14"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -698,7 +702,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"bh14"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -733,8 +738,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
-		"fgcolor"		"TanLight"
+		"font"			"ln12"
+		"fgcolor"		"customWhite"
 		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -759,7 +764,7 @@
 			"ypos"			"18"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"ln12"
 		}
 
 		if_readymode
@@ -767,7 +772,7 @@
 			"xpos"			"285"
 			"ypos"			"26"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"ln12"
 		}
 	}
 
@@ -776,7 +781,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"55"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"17"
@@ -790,8 +795,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		
 		if_mvm
 		{
@@ -812,9 +817,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
+		"font"			"ln12"
+		"fgcolor_override"		"customWhite"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"58"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"
@@ -829,7 +835,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -839,7 +845,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -849,7 +855,7 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
@@ -862,9 +868,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
+		"font"			"ln12"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"59"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"
@@ -879,7 +885,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -890,7 +896,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -901,7 +907,7 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"ln12"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
