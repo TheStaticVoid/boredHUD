@@ -1,6 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 3.17.2016
+----------------------------------------------
+~ Fixed round timers not displaying
++ Added support for todays update
+
+
+----------------------------------------------
 				Release 3.8.2016
 ----------------------------------------------
 ~ Fixed the tournament ready up panel to be what it was before the last update

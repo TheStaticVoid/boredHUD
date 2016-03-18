@@ -14,6 +14,11 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 		
+		if_comp
+		{
+			"visible"	"0"
+		}
+		
 		"src_corner_height"	"10"
 		"src_corner_width"	"10"
 	}
@@ -23,6 +28,11 @@
 		"fieldName"			"TimePanelProgressBar"
 		"visible"			"0"
 		"enabled"			"0"
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -41,6 +51,16 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
+		
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -55,6 +75,10 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"	
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -73,6 +97,16 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
+		
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -87,6 +121,10 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -105,6 +143,16 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
+		
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -119,6 +167,11 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
+		
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -137,6 +190,17 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
+		
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"ypos_minmode"			"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}	
 	"SetupBG"
 	{
@@ -151,6 +215,11 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
+		
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -170,6 +239,16 @@
 		"wrap"			"0"
 		"font"			"ln14"
 		"fgcolor"		"customWhite"
+		
+		if_comp
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"ypos"					"17"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -184,5 +263,10 @@
 		"enabled"		"1"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
+		
+		if_comp
+		{
+			"wide"	"0"
+		}
 	}
 }
