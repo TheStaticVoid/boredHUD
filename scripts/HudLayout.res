@@ -687,7 +687,7 @@
 		"item_wide"	"140"
 		
 		"show_avatar"		"1"
-        "avatar_xpos"       "-11"
+        "avatar_xpos"       "-12"
         "avatar_ypos"       "-1"
         "avatar_tall"           "18"
         "avatar_wide"       "18"

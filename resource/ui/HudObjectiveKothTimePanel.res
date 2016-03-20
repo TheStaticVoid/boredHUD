@@ -31,15 +31,15 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
+			"xpos"					"cs-0.6"
+			"ypos"					"3"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"ln14"
 		}
 		
 		"TimePanelValue"
@@ -65,7 +65,7 @@
 				"ypos"			"9"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"HudFontSmall"
+				"font"			"ln14"
 			
 			}
 		}	
@@ -93,15 +93,15 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
+			"xpos"					"cs-0.55"
+			"ypos"					"3"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"ln14"
 		}
 		
 		"TimePanelValue"
@@ -128,7 +128,7 @@
 				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
+				"font"			"ln14"
 			
 			}
 		}	

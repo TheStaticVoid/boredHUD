@@ -116,9 +116,9 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
+				"ypos"			"10	"
 				"tall"			"10"
-				"font"			"bh24"
+				"font"			"ln14"
 			}
 		}	
 	}
