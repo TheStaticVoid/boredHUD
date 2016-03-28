@@ -1,6 +1,15 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 3.27.2016
+----------------------------------------------
+~ Moved the stream button on the main menu to not overlap the notification button
+~ Fixed two icons for special delivery gamemodes being displayed
+~ Fixed the achievement tracker overlaying chat & engineer buildings
++ Added the Mannpower Nova meter, credit to ObsidianMinor
+
+
+----------------------------------------------
 				Release 3.24.2016
 ----------------------------------------------
 + Updated files for today's update

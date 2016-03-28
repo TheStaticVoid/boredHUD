@@ -20,7 +20,7 @@ http://teamfortress.tv/user/spice
 Wiethoofd -- High quality items in inventory & backpack
 http://teamfortress.tv/thread/25428/higher-quality-item-images-in-inventory-amp-loadouts
 
-Whoever runs the default TF2 HUD github repo (mana?) -- you're the best!
+Whoever runs the default TF2 HUD github repo (mana?) -- you're the best! jk ur dead
 https://github.com/MFSTATE/tf2basehud
 
 omnibyoulater -- referenced how to position spectator tournament
@@ -33,3 +33,6 @@ raysfire -- Referenced how to make a single main menu background
 https://github.com/raysfire
 
 Google Images -- for space background haha
+
+ObsidianMinor -- Added supernova meter
+https://github.com/ObsidianMinor
