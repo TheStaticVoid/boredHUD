@@ -21,6 +21,11 @@
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+		
+		if_comp
+ 		{
+ 			"ypos"	"20"
+ 		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -37,7 +42,12 @@
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"
+
+		if_comp
+		{
+			"ypos"	"27"
+		}		
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -52,6 +62,10 @@
 		"visible"			"0"
 		"enabled"			"1"
 
+		if_comp
+ 		{
+ 			"ypos"	"11"
+ 		}
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -86,6 +100,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"			"customWhite"
+		
+		if_comp
+ 		{
+ 			"ypos"	"21"
+ 		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -105,6 +124,10 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"			"customWhite"
+		if_comp
+ 		{
+ 			"ypos"	"24"
+ 		}
 	}
 
 	"StopWatchLabel"
@@ -125,6 +148,10 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor"			"customWhite"
+		if_comp
+ 		{
+ 			"ypos"	"20"
+ 		}
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -148,6 +175,10 @@
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+		if_comp
+ 		{
+ 			"ypos"	"42"
+ 		}
 	}
 
 	"StopWatchDescriptionLabel"
@@ -168,5 +199,10 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"			"customWhite"
+		
+		if_comp
+ 		{
+ 			"ypos"	"38"
+ 		}
 	}
 }

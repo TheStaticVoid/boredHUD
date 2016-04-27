@@ -1,0 +1,9 @@
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 290 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 290 Linear 0 0
+}
