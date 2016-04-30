@@ -1,6 +1,14 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 4.26.2016
+----------------------------------------------
+~ Updated all files for the recent TF2 patch
+~ Fixed the winpanel displaying incorrectly
+~ Fixed the contract drawer opening in the wrong position -- Credit to ObsidianMinor for the fix
+
+
+----------------------------------------------
 				Release 3.27.2016
 ----------------------------------------------
 ~ Moved the stream button on the main menu to not overlap the notification button

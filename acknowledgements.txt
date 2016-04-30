@@ -34,5 +34,5 @@ https://github.com/raysfire
 
 Google Images -- for space background haha
 
-ObsidianMinor -- Added supernova meter
+ObsidianMinor -- Helps with misc HUD relating things
 https://github.com/ObsidianMinor

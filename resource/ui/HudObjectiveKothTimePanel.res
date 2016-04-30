@@ -62,7 +62,7 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"15"
-				"ypos"			"9"
+				"ypos"			"12"
 				"tall"			"10"
 				"wide"			"35"
 				"font"			"ln14"
@@ -125,7 +125,7 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"rs1-15"
-				"ypos"			"9"
+				"ypos"			"12"
 				"wide"			"35"
 				"tall"			"10"
 				"font"			"ln14"

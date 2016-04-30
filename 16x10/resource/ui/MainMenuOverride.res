@@ -220,7 +220,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v3.27.2016"
+		"labelText"				"boredHUD v4.26.2016"
 		"textAlignment"		"center"
 		"xpos"					"c230"
 		"ypos"					"r150"
@@ -4307,7 +4307,7 @@
 					}
 					"5"
 					{
-						"item"		"Taunt: Aerobic Taunt"
+						"item"		"Taunt: Mannrobics Taunt"
 						"show_market"	"0"
 					}
 					
