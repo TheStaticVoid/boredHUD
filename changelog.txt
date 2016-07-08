@@ -1,6 +1,19 @@
 boredHUD Changelog
 
 ----------------------------------------------
+                Release 7.8.2016
+----------------------------------------------
++ Added and changed all the files from the new update
+- Removed the mainmenu.res for now.  I am most likely going to re-do it from scratch
+
+
+----------------------------------------------
+				Release 6.1.2016
+----------------------------------------------
+~ Fixed a bug related to the shield charge and uber charge meters
+
+
+----------------------------------------------
 				Release 4.26.2016
 ----------------------------------------------
 ~ Updated all files for the recent TF2 patch

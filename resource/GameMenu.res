@@ -7,48 +7,14 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
-	"QuickplayButton"
+	"FindAGameButton"
 	{
-		"label" "QUICKPLAY" 
-		"command" "quickplay"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "NEW GAME" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "PLAY MvM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	"PlayCompButton"
-	{
-		"label" "PLAY COMPETITIVE" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "CHANGE SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
+	
 	"ChangeScoreboardButton"
 	{
 		"label" "SWAP SCOREBOARD"
@@ -56,40 +22,19 @@
 		"subimage"	"glyph_vr"
 		"OnlyInGame"	"1"
 	}
-	"ReplayBrowserButton"
-	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "WORKSHOP"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
+    "FindAGameButtonHalfWidth"
+    {
+        "label" "#MMenu_FindAGame" 
+ 		"command" "toggle_play_menu"
+ 		"subimage" "glyph_multiplayer"
+ 		"OnlyInGame"	"1"
+    }
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
-	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{

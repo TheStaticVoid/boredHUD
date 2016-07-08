@@ -368,7 +368,7 @@
 		"ypos"			"89"
 		"zpos"			"1"
 		"wide"			"292"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -377,6 +377,7 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+        "centerwrap"        "1"
 		"fgcolor"				"customWhite"
 	}
 	"DetailsLabel"
@@ -471,7 +472,7 @@
 		"fillcolor"		"customWhite"
 		"PaintBackgroundType"	"0"
 	}
-	"Player1Medal"
+	"Player1Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player1Medal"
@@ -557,7 +558,7 @@
 		"brighttext"		"0"
 		"font"				"ln12"
 	}
-	"Player2Medal"
+	"Player2Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player2Medal"
@@ -643,7 +644,7 @@
 		"brighttext"		"0"
 		"font"				"ln12"
 	}
-	"Player3Medal"
+	"Player3Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player3Medal"
@@ -786,7 +787,7 @@
 		"fillcolor"		"customWhite"
 		"PaintBackgroundType"	"0"
 	}
-	"KillStreakPlayer1Medal"
+	"KillStreakPlayer1Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"KillStreakPlayer1Medal"
