@@ -14,7 +14,7 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -29,7 +29,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -52,7 +52,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -75,7 +75,7 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"	
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -98,7 +98,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -121,7 +121,7 @@
 		"enabled"		"0"
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -144,7 +144,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -168,7 +168,7 @@
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -191,7 +191,7 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -215,7 +215,7 @@
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -239,7 +239,7 @@
 		"font"			"ln14"
 		"fgcolor"		"customWhite"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -263,7 +263,7 @@
 		"fillcolor"		"customGrayPanel"
 		"scaleImage"	"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
