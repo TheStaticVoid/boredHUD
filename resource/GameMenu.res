@@ -2,33 +2,27 @@
 {
 	"ResumeGameButton"
 	{
-		"label"			"RESUME"
+		"label"			"RESUME GAME"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
 	"FindAGameButton"
 	{
-		"label" "#MMenu_FindAGame" 
+		"label" "FIND A GAME" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu"	"1"
 	}
-	
-	"ChangeScoreboardButton"
+
+	"FindAGameButtonHalfWidth"
 	{
-		"label" "SWAP SCOREBOARD"
-		"command" "engine toggle cl_hud_minmode"
-		"subimage"	"glyph_vr"
+		"label" "FIND A GAME" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
 		"OnlyInGame"	"1"
 	}
-    "FindAGameButtonHalfWidth"
-    {
-        "label" "#MMenu_FindAGame" 
- 		"command" "toggle_play_menu"
- 		"subimage" "glyph_multiplayer"
- 		"OnlyInGame"	"1"
-    }
+
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -36,6 +30,7 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
+
 	"GeneralStoreButton"
 	{
 		"label" "#MMenu_Shop"
@@ -83,4 +78,20 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+    
+    "ChangeScoreboardButton"
+    {
+        "label"     "CHANGE SCOREBOARD"
+        "command"   "engine toggle cl_hud_minmode"
+        "OnlyInGame"        "1"
+        "subimage"      "glyph_vr"
+    }
+    
+    "DemoUIButton"
+    {
+        "label"     "DEMOUI"
+        "command"   "engine demoui"
+        "OnlyAtMenu"    "1"
+        "subimage"      "glyph_vr"
+    }
 }
