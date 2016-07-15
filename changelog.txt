@@ -1,6 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
+                Release 7.14.2016
+----------------------------------------------
++ Added the create local server button to the dropdown menu ~credit to ObsidianMinor
++ Updated the passtime HUD ~credit to ObsidianMinor
+
+
+----------------------------------------------
                 Release 7.10.2016
 ----------------------------------------------
 + Re-added the mainmenu!
