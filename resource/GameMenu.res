@@ -1,28 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
-	{
-		"label"			"RESUME GAME"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"FindAGameButton"
-	{
-		"label" "FIND A GAME" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-
-	"FindAGameButtonHalfWidth"
-	{
-		"label" "FIND A GAME" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
-	}
-
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"

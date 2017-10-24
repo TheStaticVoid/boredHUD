@@ -1,6 +1,12 @@
 boredHUD Changelog
 
 ----------------------------------------------
+				Release 10.24.2016
+----------------------------------------------
++ Updated for Jungle Inferno
+
+
+----------------------------------------------
                 Release 7.14.2016
 ----------------------------------------------
 + Added the create local server button to the dropdown menu ~credit to ObsidianMinor
