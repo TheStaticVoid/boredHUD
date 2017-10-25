@@ -1,7 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
-				Release 10.24.2016
+				Release 10.25.2017
+----------------------------------------------
+~ Fixed phlog meter appearing to the right side of the screen
+
+
+----------------------------------------------
+				Release 10.24.2017
 ----------------------------------------------
 + Updated for Jungle Inferno
 
