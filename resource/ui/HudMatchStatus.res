@@ -59,30 +59,23 @@
 	
 	"CountdownLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"bh24"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.1"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"fgcolor"		"customWhite"
-			"font"			"bh24"
-		}
+		"fgcolor"		"customWhite"
 
 		if_readymode
 		{
@@ -93,37 +86,31 @@
 	
 	"CountdownLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"bh24"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
-		if_competitive
-		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-			"font"			"bh24"
-		}
-
+	
 		if_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
 		}
-	}
+	}	
 
 	"FrontParticlePanel"
 	{
@@ -236,7 +223,7 @@
         
         if_match
         {
-                "visible" "1"
+                "visible" "0"
         }
  	}
 	"ObjectiveStatusTimePanel"
@@ -246,13 +233,13 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"

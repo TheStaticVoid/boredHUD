@@ -1,6 +1,13 @@
 boredHUD Changelog
 
 ----------------------------------------------
+        Release 8.23.2020
+----------------------------------------------
++ Added content I missed to the main menu
+~ Fixed an issue with classes not showing at the top of the screen
+
+
+----------------------------------------------
 				Release 10.25.2017
 ----------------------------------------------
 ~ Fixed phlog meter appearing to the right side of the screen

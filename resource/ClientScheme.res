@@ -473,6 +473,16 @@ Scheme
 	Fonts
 	{
 		// boredhud fonts //
+    "bh8"
+    {
+      "1"
+      {
+        "name"      "Blue Highway"
+        "tall"      "8"
+        "antialias" "1"
+      }
+    }
+    
 		"bh10"
 		{
 			"1"
