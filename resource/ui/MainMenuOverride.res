@@ -215,7 +215,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"VersionNumber"
 		"font"					"ln12"
-		"labelText"				"boredHUD v8.23.2020"
+		"labelText"				"boredHUD v8.25.2020"
 		"textAlignment"		"center"
 		"xpos"					"40"
 		"ypos"					"25"
@@ -599,8 +599,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"customeWhite"
+			"image_armedcolor"	"customWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -617,6 +617,7 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
+				"drawcolor_override" "customWhite"
 			}
 		}
 	}
@@ -686,8 +687,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -706,6 +707,7 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
+				"drawcolor_override" "customWhite"
 			}
 		}
 
@@ -736,8 +738,8 @@
 				"enabled"		"1"
 				"image"			"glyph_achievements"
 				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
 				"proportionaltoparent"	"1"
+				"drawcolor_override" "customWhite"
 			}
 
 			"Notifications_CountLabel"
@@ -810,8 +812,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -826,6 +828,7 @@
 				"enabled"		"1"
 				"image"			"button_MOTD"
 				"scaleImage"	"1"
+				"drawcolor_override" "customWhite"
 			}
 		}
 	}

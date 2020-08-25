@@ -100,14 +100,15 @@
 			"visible"		"0"
 		}
 	}							
-	"BlueTeamLabel"
+	"BlueTeamName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamName"
 		"font"			"bh32"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"20"
+		"zpos"			"999"
 		"ypos"			"15"	
 		"wide"			"140"
 		"tall"			"34"
@@ -195,14 +196,15 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamName"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamName"
 		"font"			"bh32"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"480"
+		"zpos"			"999"
 		"ypos"			"15"	
 		"wide"			"140"
 		"tall"			"34"

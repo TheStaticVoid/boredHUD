@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"uiBG"
+		"infocus_bgcolor_override" "uiBG"
+		"outoffocus_bgcolor_override" "uiBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"wide"			"10"
-			"tall"			"10"
+			"tall"			"11"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
@@ -59,11 +59,15 @@
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
 				"noitem_textcolor"		"117 107 94 255"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"1"
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"HudFontSmallestBold"
+				"font"				"ln12"
+				"defaultFgColor_override" "customWhite"
+				"armedFgColor_override" "customWhite"
+				"depressedFgColor_override" "customWhite"
+				"disabledFgColor_override" "customGrayPanel"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -104,7 +108,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"1"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
@@ -158,7 +162,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"bh14"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -170,13 +174,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "customRed"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"bh18"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -188,6 +192,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "customWhite"
 	}
 	
 	"tool_icon"
@@ -211,7 +216,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"bh14"
 		"wrap"				"0"
 		"xpos"				"c-85"
 		"ypos"				"37"
@@ -229,12 +234,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"fgcolor_override"	"customWhite"
+		"bgcolor_override"	"0 0 0 255"
+		"disabledFgColor_override" "customWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "customWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -242,10 +247,10 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
-		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
+		"labelText"		""
+		"Font"			"bh14"
 		"textAlignment"	"east"
-		"xpos"			"c-70"
+		"xpos"			"c-90"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"200"
@@ -254,15 +259,34 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+	}
+
+	"ShowBaseItemsLabel"
+	{
+		"ControlName" 		"CExLabel"
+		"fieldName"			"ShowBaseItemsLabel"
+		"labelText"			"#ShowBaseItemsCheckBox"
+		"Font"				"bh14"
+		"textAlignment"		"west"
+		"xpos"				"c-65"
+		"ypos"				"15"
+		"zpos"				"1"
+		"wide"				"200"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"customWhite"
 	}
 
 	"NameFilterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"bh12"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+137"
@@ -274,7 +298,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"customWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -283,7 +307,7 @@
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+137"
 		"ypos"		"15"
-		"wide"		"90"
+		"wide"		"130"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -293,8 +317,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"uiBG"
+		"bgcolor_override"	"customWhite"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -303,7 +327,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"HudFontSmallestBold"
+		"font"				"bh14"
 		"xpos"				"c137"
 		"ypos"				"37"
 		"zpos"				"1"
@@ -318,15 +342,14 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"fgcolor_override"				"customWhite"
+		"bgcolor_override"				"0 0 0 255"
+		"disabledFgColor_override"		"customWhite"
+		"disabledBgColor_override"		"0 0 0 255"
+		"selectionColor_override"		"0 0 0 255"
+		"selectionTextColor_override"	"customWhite"
+		"defaultSelectionBG2Color_override" "0 0 0 255"
 	}	
 
 	
@@ -396,6 +419,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type" "1"
 		}
 	}
 	
@@ -415,6 +439,10 @@
 		"tabPosition"	"0"
 		"labelText"		"&A"
 		"font"			"bh18"
+		"defaultFgColor_override" "customWhite"
+		"armedFgColor_override" "customWhite"
+		"depressedFgColor_override" "customWhite"
+		"disabledFgColor_override" "customGrayPanel"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -439,7 +467,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "customRed"
 	}
 	
 	"NextPageButton"
@@ -458,6 +486,10 @@
 		"tabPosition"	"0"
 		"labelText"		"&D"
 		"font"			"bh18"
+		"defaultFgColor_override" "customWhite"
+		"armedFgColor_override" "customWhite"
+		"depressedFgColor_override" "customWhite"
+		"disabledFgColor_override" "customGrayPanel"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -543,8 +575,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
+		"xpos"			"c269"
+		"ypos"			"14"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"

@@ -12,7 +12,7 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"customGrayPanel"	
 	}
 	
@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"ln24"
+		"font_override"			"bh24"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-325"

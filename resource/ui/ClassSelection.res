@@ -1525,8 +1525,8 @@
 		"xpos"			"180"
 		"ypos"			"0"
 		"zpos"			"6"		
-		"wide"			"560"
-		"tall"			"560"
+		"wide"			"480"
+		"tall"			"480"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"

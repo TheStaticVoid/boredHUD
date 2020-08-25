@@ -87,10 +87,17 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue" 
+	"MapInfoContinue"
+	{
+		"ControlName" 	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
+	}
+	
+	"MapInfoContinue2" 
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
+		"fieldName"		"MapInfoContinue2"
 		"xpos"			"r340"
 		"ypos"			"r100"
 		"zpos"			"6"
@@ -100,7 +107,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -143,10 +150,17 @@
 		"PaintBackground" 	"0"
 	}
 	
-	"MapInfoBack" 
+	"MapInfoBack"
+	{
+		"ControlName" "CExButton"
+		"fieldName" "MapInfoBack"
+		"xpos" "9999"
+	}
+
+	"MapInfoBack2" 
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoBack"
+		"fieldName"		"MapInfoBack2"
 		"xpos"			"175"
 		"ypos"			"r100"
 		"zpos"			"6"
@@ -156,7 +170,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"BACK (&Q)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

@@ -328,7 +328,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
+				"font"			"ln18"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
@@ -537,11 +537,11 @@
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
+			"defaultFgColor_override" "customWhite"
+			"armedFgColor_override" "customWhite"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -557,7 +557,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "customWhite"
 			}
 		}
 
@@ -596,11 +596,11 @@
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
+			"defaultFgColor_override" "customWhite"
+			"armedFgColor_override" "customWhite"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -616,7 +616,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "customWhite"
 			}
 		}
 
@@ -625,7 +625,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
 			"xpos"			"rs1-31-131"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"100"
 			"wide"			"120"
 			"tall"			"f6"
@@ -655,10 +655,10 @@
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "customWhite"
+			"armedFgColor_override" "customWhite"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -674,7 +674,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "customWhite"
 			}
 		}
 
@@ -683,7 +683,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"xpos"			"rs1-31"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"100"
 			"wide"			"115"
 			"tall"			"f6"
@@ -692,7 +692,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"bh14"
+			"font"			"ln18"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -713,10 +713,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "customWhite"
+			"armedFgColor_override" "customWhite"
+			"image_drawcolor"	"customWhite"
+			"image_armedcolor"	"customWhite"
 
 			"SubImage"
 			{
@@ -732,7 +732,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "customWhite"
 			}
 		}
 	}

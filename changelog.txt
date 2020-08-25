@@ -1,6 +1,21 @@
 boredHUD Changelog
 
 ----------------------------------------------
+		Release 8.25.2020
+----------------------------------------------
++ Added new inventory design
++ Added A/D key functionality in item selection menus
++ You can now press E to progress the server MOTD and map info menus
++ Most fonts should be custom now
++ Most colors should be changed from default
+~ Classes in the class select are no longer super wide
+~ Fixed the new chat update from moving out of place
+~ Fixed the KOTH timers being too low
+~ Fixed team names displaying incorrectly in the scoreboard
+~ Adjusted the matchmaking button font colors
+
+
+----------------------------------------------
         Release 8.23.2020
 ----------------------------------------------
 + Added content I missed to the main menu

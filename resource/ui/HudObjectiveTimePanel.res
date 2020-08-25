@@ -57,9 +57,10 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"21"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"bh14"
+			"font_hidef"			"bh14"
+			"font_lodef"			"bh14"
+			"fgcolor_override"		"customWhite"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -103,9 +104,10 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"21"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"bh14"
+			"font_hidef"			"bh14"
+			"font_lodef"			"bh14"
+			"fgcolor_override"		"customWhite"
 		}
 	}			
 	"OvertimeBG"
@@ -149,9 +151,10 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"21"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"bh14"
+			"font_hidef"			"bh14"
+			"font_lodef"			"bh14"
+			"fgcolor_override"		"customWhite"
 		}
 	}			
 	"SuddenDeathBG"
@@ -199,7 +202,7 @@
 			"font"					"bh14"
 			"font_hidef"			"bh14"
 			"font_lodef"			"bh14"
-      "fgcolor_override" "customWhite"
+      		"fgcolor_override" "customWhite"
 		}
 	}	
 	"SetupBG"
