@@ -164,6 +164,18 @@
 		"NumberFont" "HudSelectionText"
 	}	
 	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-235"
+		"ypos"				"r160"
+		"wide"				"100"
+		"tall"				"150"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
+	
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
